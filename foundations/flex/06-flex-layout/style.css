@@ -24,3 +24,67 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* COMIENZA MI CODIGO */
+
+li{
+  list-style-type: none;
+  
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+a{
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bolder;
+  color:rgba(44, 42, 42, 0.774);
+}
+
+button{
+  font-size: medium;
+  height: 30px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #eee;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+}
+
+.right-links,.left-links{
+  display: flex;
+  gap: 30px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
